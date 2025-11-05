@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "W3C Validator Checker",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Vérifie la validité W3C de la page courante",
   "browser_specific_settings": {
     "gecko": {

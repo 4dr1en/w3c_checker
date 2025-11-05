@@ -91,13 +91,13 @@ if (checkPageButton) {
         
         const errorStat = document.createElement('div');
         errorStat.className = `stat-item${errors.length > 0 ? ' has-errors' : ''}`;
-        errorStat.innerHTML = `Erreurs: ${errors.length}`;
+        errorStat.textContent = `Erreurs: ${errors.length}`;
         errorStat.setAttribute('role', 'status');
         errorStat.setAttribute('aria-label', `${errors.length} erreur${errors.length > 1 ? 's' : ''} trouvée${errors.length > 1 ? 's' : ''}`);
         
         const warningStat = document.createElement('div');
         warningStat.className = `stat-item${warnings.length > 0 ? ' has-warnings' : ''}`;
-        warningStat.innerHTML = `Warnings: ${warnings.length}`;
+        warningStat.textContent = `Warnings: ${warnings.length}`;
         warningStat.setAttribute('role', 'status');
         warningStat.setAttribute('aria-label', `${warnings.length} avertissement${warnings.length > 1 ? 's' : ''} trouvé${warnings.length > 1 ? 's' : ''}`);
         
