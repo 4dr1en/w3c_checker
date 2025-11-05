@@ -1,6 +1,6 @@
 # 🌐 W3C Validator Checker
 
-Une extension Firefox élégante et puissante pour valider la conformité W3C de vos pages web en un seul clic.
+Une extension Firefox pour valider la conformité W3C de vos pages web en un seul clic.
 
 ## ✨ Fonctionnalités
 
