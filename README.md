@@ -40,8 +40,8 @@ Une extension Firefox pour valider la conformité W3C de vos pages web en un seu
 
 #### 1. Cloner ou télécharger le projet
 ```bash
-git clone https://github.com/votre-username/windsurf-project.git
-cd windsurf-project/w3cValidator
+git clone https://github.com/votre-username/w3c_checker.git
+cd w3c_checker
 ```
 
 Ou téléchargez le ZIP et décompressez-le.
